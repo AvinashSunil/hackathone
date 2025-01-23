@@ -1,0 +1,125 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and basic layout */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #2e3b4e;
+    color: white;
+    padding: 10px 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.navbar h1 {
+    margin-left: 20px;
+}
+
+.navbar nav ul {
+    list-style: none;
+    display: flex;
+}
+
+.navbar nav ul li {
+    margin-right: 20px;
+}
+
+.navbar nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Hero section */
+.hero {
+    text-align: center;
+    background-image: url('india-heritage.jpg'); /* You can add a relevant background image */
+    background-size: cover;
+    padding: 100px 20px;
+    color: white;
+}
+
+.hero h2 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.5rem;
+}
+
+/* Content sections */
+section {
+    padding: 50px 20px;
+    margin: 20px 0;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+    color: #2e3b4e;
+}
+
+section p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+}
+
+/* History section */
+#history {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#history h2 {
+    margin-bottom: 15px;
+}
+
+/* Footer */
+footer {
+    background-color: #2e3b4e;
+    color: #2e3b4e;
+    text-align: center;
+    padding: 20px;
+}
+
+footer p {
+    font-size: 1rem;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.btn a {
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #2e3b4e;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.btn a:hover {
+    background-color: #3b4c5f;
+}
